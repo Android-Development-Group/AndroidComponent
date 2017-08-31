@@ -4,9 +4,7 @@ buildscript {
     repositories {
         jcenter()
         maven { url "https://jitpack.io" }
-        maven {
-            url uri('./repo')
-        }
+        maven { url uri('./repo') }
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:2.3.3'
@@ -21,8 +19,6 @@ allprojects {
             dirs '../componentrelease' //this way we can find the .aar file in  folder
         }
         maven { url "https://jitpack.io" }
-        maven {
-            url uri('./repo')
-        }
+        maven { url uri('./repo') }
     }
 }
