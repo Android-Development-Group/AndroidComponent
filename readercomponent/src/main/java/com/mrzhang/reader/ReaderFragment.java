@@ -25,7 +25,7 @@ public class ReaderFragment extends Fragment {
         if (rootView == null) {
             rootView = inflater.inflate(R.layout.readerbook_fragment_reader, container,
                     false);
-            rootView.findViewById(R.id.tv_content).setOnClickListener(new View.OnClickListener() {
+            rootView.findViewById(R.id.btn_share).setOnClickListener(new View.OnClickListener() {
 
                 @Override
                 public void onClick(View v) {

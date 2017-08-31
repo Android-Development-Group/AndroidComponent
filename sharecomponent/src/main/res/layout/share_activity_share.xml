@@ -5,10 +5,18 @@
     android:layout_height="match_parent">
 
     <TextView
+        android:id="@+id/tv_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="@string/share_app_name"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
         android:text="这是分享组件"
-        android:textSize="21sp"
-        android:layout_centerInParent="true" />
+        android:textSize="21sp"/>
 
 </RelativeLayout>

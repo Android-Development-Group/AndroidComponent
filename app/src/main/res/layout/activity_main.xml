@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical">
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="@string/app_name"
+        android:textSize="16sp"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -14,7 +22,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="加载分享组件"
-            android:textColor="@color/common_color_black" />
+            android:textColor="@color/common_color_black"/>
 
         <Button
             android:id="@+id/uninstall_share"
@@ -22,19 +30,19 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
             android:text="卸载分享组件"
-            android:textColor="@color/common_color_black" />
+            android:textColor="@color/common_color_black"/>
     </LinearLayout>
 
     <FrameLayout
         android:id="@+id/tab_content"
         android:layout_width="fill_parent"
         android:layout_height="0dp"
-        android:layout_weight="1" />
+        android:layout_weight="1"/>
 
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="#858585"></View>
+        android:background="#858585"/>
 
 
 </LinearLayout>
